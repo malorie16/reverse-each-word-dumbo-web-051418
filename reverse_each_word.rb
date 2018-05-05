@@ -1,8 +1,3 @@
 def reverse_each_word(sentence)
-    sentence.map do |word|
-      sentence = word.reverse
-  end
-  puts sentence
+  sentence.split.reverse
 end
-
-reverse_each_word(sentence)
